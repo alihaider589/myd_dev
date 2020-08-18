@@ -1,0 +1,12 @@
+{
+  "name": "myd_devtools",
+  "displayName": "myd_devtools",
+  "expo": {
+    "name": "myd_devtools",
+    "slug": "myd_devtools",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
