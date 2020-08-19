@@ -396,7 +396,7 @@ If you have certain screens of your app that take some time to load, you may wan
     </table><br />
 
 ## Our Developers
-Ali haider(http://github.com/alihaider589) | Ali Haider(http://github.com/ali-)
+Ali haider(http://github.com/alihaider589) | Ali Haider(http://github.com/ali-718)
 ------------ | -------------
 ![Ali Haider](https://imgur.com/6BKZbDn.jpg)| ![Ali Haider](https://imgur.com/riugot4.jpg)
 ## Past App Created on MYD Devtools
