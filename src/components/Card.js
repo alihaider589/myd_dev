@@ -1,26 +1,22 @@
-import React, { Component } from "react";
-import { StyleSheet } from "react-native";
-
-import Block from "./Block"
-import { theme } from "../constants"
-
-export default class Card extends Component {
+import React, { Component } from 'react';
+import { Container, Header, Content, Card, CardItem, Body, Text } from 'native-base';
+export default class CardExample extends Component {
   render() {
-    const { color, style, children, ...props } = this.props;
-    const cardStyles = [styles.card, style];
-
     return (
-      <Block color={color || theme.colors.white} style={cardStyles} {...props}>
-        {children}
-      </Block>
+      <Container>
+        <Header />
+        <Content>
+          <Card>
+            <CardItem>
+              <Body>
+                <Text>
+                   //Your text here
+                </Text>
+              </Body>
+            </CardItem>
+          </Card>
+        </Content>
+      </Container>
     );
   }
 }
-
-export const styles = StyleSheet.create({
-  card: {
-    borderRadius: theme.sizes.radius,
-    padding: theme.sizes.base + 4,
-    marginBottom: theme.sizes.base
-  }
-});
